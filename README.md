@@ -14,13 +14,16 @@ pip install sklearn
 # Run
 ## Subspace Learning
 ```
+python subspace_learn.py --task_name sst2 --seed 42 --device 'cuda:0' --learn_dim 10 > ./sst2_learn_42.out
 ```
 ## Subspace Selection
 ```
+python subspace_selection.py --task_name sst2 --intrinsic_dim 10 --device 'cuda:0' --seed 42 --train_batch_size 32 > ./sst2_selection_42.out
+
 ```
 ## Prompt Tuning
 ```
-
+python subspace_op.py --task_name sst2 --seed 42 --device 'cuda:0' --train_batch_size 32 --intrinsic_dim 2 --idx_list 0 1 > ./sst2_op_42.out
 ```
 # Citation
 ```
