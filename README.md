@@ -18,7 +18,7 @@ python subspace_learn.py --task_name sst2 --seed 42 --device 'cuda:0' --learn_di
 ```
 ## Subspace Selection
 ```
-python subspace_selection.py --task_name sst2 --intrinsic_dim 10 --device 'cuda:0' --seed 42 --train_batch_size 32 > ./sst2_selection_42.out
+python subspace_selection.py --task_name sst2 --intrinsic_dim 10 --device 'cuda:0' --seed 42 --train_batch_size 32 --topk 2 > ./sst2_selection_42.out
 
 ```
 ## Prompt Tuning
