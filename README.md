@@ -1,4 +1,4 @@
-# The Code of EffiBlackVip 
+# Results of supplementary experiments and the Code of Paper
 Anonymous KDD 2024 Submission Paper
 
 # Setup
