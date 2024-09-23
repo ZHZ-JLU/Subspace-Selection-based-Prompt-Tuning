@@ -1,5 +1,5 @@
-# Results of supplementary experiments and the Code of Paper
-Anonymous KDD 2024 Submission Paper
+# Subspace-Selection-based-Prompt-Tuning (SSPT)
+KDD 2024 Accepted Paper
 
 # Setup
 ```
